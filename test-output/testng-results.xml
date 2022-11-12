@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-12T14:10:05 AEDT" name="Default suite" finished-at="2022-11-12T14:10:07 AEDT" duration-ms="1295">
+  <suite started-at="2022-11-12T15:16:51 AEDT" name="Default suite" finished-at="2022-11-12T15:16:52 AEDT" duration-ms="1315">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TYrun@433defed]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-11-12T14:10:05 AEDT" name="Default test" finished-at="2022-11-12T14:10:07 AEDT" duration-ms="1295">
+    <test started-at="2022-11-12T15:16:51 AEDT" name="Default test" finished-at="2022-11-12T15:16:52 AEDT" duration-ms="1315">
       <class name="TestRunners.TYrun">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T14:10:05 AEDT" name="setUpClass" finished-at="2022-11-12T14:10:06 AEDT" duration-ms="709" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T15:16:51 AEDT" name="setUpClass" finished-at="2022-11-12T15:16:51 AEDT" duration-ms="739" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6edf29c1]]>
+                <![CDATA[org.testng.TestRunner@4c2af006]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T14:10:06 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-12T14:10:06 AEDT" duration-ms="151" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T15:16:51 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-12T15:16:52 AEDT" duration-ms="145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,14 +30,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Open Youtube and search Cucumber contents"]]>
+                <![CDATA["Open Youtube and search provided contents"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T14:10:06 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-12T14:10:06 AEDT" duration-ms="14" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T15:16:52 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-12T15:16:52 AEDT" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,14 +46,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Open Youtube and search Cucumber contents"]]>
+                <![CDATA["Open Youtube and search provided contents"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T14:10:06 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-12T14:10:06 AEDT" duration-ms="11" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T15:16:52 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-12T15:16:52 AEDT" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,14 +62,30 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Open Youtube and search Cucumber contents"]]>
+                <![CDATA["Open Youtube and search provided contents"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T14:10:06 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-12T14:10:06 AEDT" duration-ms="12" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T15:16:52 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-12T15:16:52 AEDT" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Youtube sports videos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Open Youtube and search provided contents"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T15:16:52 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-12T15:16:52 AEDT" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T14:10:06 AEDT" name="tearDownClass" finished-at="2022-11-12T14:10:07 AEDT" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunners.TYrun@433defed]" started-at="2022-11-12T15:16:52 AEDT" name="tearDownClass" finished-at="2022-11-12T15:16:52 AEDT" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
