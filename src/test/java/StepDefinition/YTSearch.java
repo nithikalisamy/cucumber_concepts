@@ -18,13 +18,6 @@ public class YTSearch extends BaseTest {
 	@Given("User opens youtube.com")
 	public void user_opens_youtube_com() throws InterruptedException {
 		System.out.println("user_opens_youtube_com");
-//		System.setProperty("webdriver.chrome.driver", "D:\\Nithi\\Studies\\Selenium\\Setup\\chromedriver-107.exe");
-//		
-//		driver = new ChromeDriver();
-//		
-//		driver.get("http://www.youtube.com");
-//		
-//		Thread.sleep(2000);
 	}
 
 	@When("The serach box is clicked")
